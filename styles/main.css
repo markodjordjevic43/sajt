@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+main {
+        height: 800px;
+        background-color: #F5F5CB;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 200px;
+}
+
+p {
+    margin-top: 0;
+    font-family: Arial, Helvetica, serif;
+}
+
+.content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #999;
+}
+
+nav {
+    background-color: #323232;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    color: white;
+    float: left;
+    margin-left: 10px;
+}
+
+.main-navigation-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 9px;
+}
+
+.main-navigation-link:hover {
+    color: grey;
+    background-color: white;
+}
+
+.kyocera-image {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 5px;
+}
