@@ -1,15 +1,25 @@
 body {
     margin: 0;
+    background-color: #a6a6a6;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 main {
-        height: 800px;
-        background-color: #F5F5CB;
+    height: 95vh;
+    background-color: #ccc;
+    overflow: hidden;
 }
 
-h1 {
+.hidden-heading {
     margin-top: 0;
-    margin-bottom: 200px;
+    margin-bottom: 10vh;
+    visibility: hidden;
+    margin: 0;
+    font-size: 1px;
+}
+
+.section-header {
+    margin-top: 0;
 }
 
 p {
@@ -24,12 +34,33 @@ p {
 }
 
 header {
-    background-color: #999;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.header-image-container {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vh;
+}
+
+.header-image {
+    max-width: 1000px;
+    min-width: 200px;
+    width: 35vw;
+    height: auto;
+}
+
+.header-images-companies img {
+    max-width: 195px;
+    height: auto;
+    margin-left: 1vw;
 }
 
 nav {
-    background-color: #323232;
     overflow: hidden;
+    float: right;
 }
 
 nav ul {
@@ -42,15 +73,17 @@ nav ul {
 nav ul li {
     color: white;
     float: left;
-    margin-left: 10px;
+    margin-right: 1vw;
 }
 
 .main-navigation-link {
     display: block;
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
-    padding: 9px;
+    font-size: calc(0.5em + 0.5vw);
+    padding: 0.5vw 1vw;
+    background-color: red;
+    font-weight: bold;
 }
 
 .main-navigation-link:hover {
@@ -58,9 +91,34 @@ nav ul li {
     background-color: white;
 }
 
-.kyocera-image {
-    width: 200px;
+.main-navigation-link-active {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: calc(0.5em + 0.5vw);
+    padding: 0.5vw 1vw;
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+.riba {
+    width: 70%;
+    max-width: 980px;
+    min-width: 200px;
     height: auto;
-    float: left;
-    margin-right: 5px;
+}
+
+.thirty-years-notice {
+    color: red;
+    font-size: calc(3px + 3vw);
+    position: absolute;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    font-weight: bold;
+}
+
+.about-text {
+    margin: 8vh 6vw;
+    font-size: 1.2em;
+    line-height: 170%;
 }
