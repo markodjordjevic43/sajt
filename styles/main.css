@@ -122,3 +122,10 @@ nav ul li {
     font-size: 1.2em;
     line-height: 170%;
 }
+
+.taskalafa {
+    width: 70%;
+    max-width:980px;
+    min-width:200px;
+    height: auto;
+}
