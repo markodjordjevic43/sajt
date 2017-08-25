@@ -224,6 +224,35 @@ nav ul li {
     height: auto;
 }
 
+.proizvod-heading {
+    text-align: center;
+}
+
+.proizvod-tabela {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: #333;
+}
+
+.proizvod-tabela td {
+    padding: 5px 10px;
+}
+
+.proizvod-sekcija-polje {
+    font-weight: bold;
+}
+
+.proizvod-sekcija-redrazdvajac {
+    background-color: #ddd;
+    font-size: 3px;
+}
+
+.proizvod-sekcija-redrazdvajac td {
+    padding: 0;
+}
+
 .contact__info-conainer {
     margin: calc(5px + 1vh + 1vw);
     font-size: calc(1em + 0.3vw);
