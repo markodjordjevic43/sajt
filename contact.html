@@ -17,13 +17,46 @@
 			<nav>
 				<ul>
 					<li><a class="main-navigation-link" href="index.html">Pocetna</a></li>
-					<li><a class="main-navigation-link" href="about.html">O nama</a></li>
 					<li><a class="main-navigation-link" href="ponuda.html">Ponuda</a></li>
 					<li><a class="main-navigation-link-active" href="contact.html">Kontakt</a></li>
 				</ul>
 			</nav>
 		</header>
 		<main>
-   < <img tref="taskalfa" src="images/taskalfa.png" />
-        
+			<div class="contact__container">
+				<div id="map"></div>
+				<div class="contact__info-conainer">
+					<div class="contact_heading">PRODAJA I SERVIS:</div>
+		
+					<address class="contact__address">
+						<div>Novi Sad, 21000</div>
+						<div>Bate Brkica 30</div>
+						<div>PIB 100451699</div>
+					</address>
+
+					<div class="contact__phones">
+						<div><a href="tel:021/402-621">021/402-621</a></div>
+						<div><a href="tel:021/6396-725">021/6396-725</a></div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script>
+		function initMap() {
+			var uluru = {lat: 45.2531671, lng: 19.79584920000002};
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 15,
+				center: uluru
+			});
+			var marker = new google.maps.Marker({
+				position: uluru,
+				map: map
+			});
+		}
+	</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcu5GtnZ1J1t1ZgCsHhJfS30cmWqoIUwI&callback=initMap">
+	</script>
+<body>
 </html>

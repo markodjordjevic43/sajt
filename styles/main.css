@@ -5,7 +5,7 @@ body {
 }
 
 main {
-    height: 95vh;
+    min-height: 95vh;
     background-color: #ccc;
     overflow: hidden;
 }
@@ -101,8 +101,17 @@ nav ul li {
     font-weight: bold;
 }
 
+.above-the-fold {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome-section {
+    width: 50%;
+}
+
 .riba {
-    width: 70%;
+    width: 100%;
     max-width: 980px;
     min-width: 200px;
     height: auto;
@@ -110,11 +119,14 @@ nav ul li {
 
 .thirty-years-notice {
     color: red;
-    font-size: calc(3px + 3vw);
+    font-size: calc(3px + 2vw);
     position: absolute;
-    margin-left: 3vw;
+    font-family: Calibri;
     margin-top: 1vh;
     font-weight: bold;
+    text-align: center;
+    width: 38%;
+    font-style: italic;
 }
 
 .about-text {
@@ -123,9 +135,142 @@ nav ul li {
     line-height: 170%;
 }
 
-.taskalafa {
-    width: 70%;
-    max-width:980px;
-    min-width:200px;
+.akcija {
+    width: 45%;
+    margin-left: 1vw;
+    text-align: center;
+    background-color: white;
+    margin-top: calc(3px + 2vh);
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+
+.akcija-naslov {
+    color: red;
+}
+
+.akcija-slideshow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.akcija-slideshow-arrow {
+    cursor: pointer;
+    color: #ccc;
+    font-size: calc(16px + 1vh + 1vw);
+}
+
+.akcija-proizvod {
+    display: none;
+    width: 44%;
     height: auto;
+}
+
+.akcija-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+.about-section {
+    color: #22617a;
+    padding-left: calc(5px + 5vw);
+    padding-right: calc(5px + 5vw);
+    padding-top: 4vh;
+    font-size: calc(8px + 0.5vh + 0.5vw);
+    font-weight: bold;
+}
+
+.ponuda {
+    margin: 40px 25px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ponuda-lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ponuda-lista > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid #ddd 1px;
+}
+
+.ponuda-row {
+    display: flex;
+    align-items: center;
+}
+
+.ponuda-row > * {
+    margin: 0 10px;
+}
+
+.ponuda-row a {
+    color: #454545;
+    text-decoration: none;
+}
+
+.ponuda-row a:hover {
+    color: grey;
+}
+
+.ponuda-thumbnail {
+    width: 60px;
+    height: auto;
+}
+
+.contact__info-conainer {
+    margin: calc(5px + 1vh + 1vw);
+    font-size: calc(1em + 0.3vw);
+}
+
+.contact__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact_heading {
+    margin-bottom: 2vh;
+}
+
+.contact__address {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.contact__phones {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#map {
+    height: 500px;
+    width: 500px;
+    margin: calc(5px + 1vh + 1vw);
+}
+
+@media screen and (max-width: 800px) {
+    .welcome-section {
+        width: 100%;
+    }
+
+    .thirty-years-notice {
+        width: 80%;
+    }
+
+    .akcija {
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    #map {
+        height: 200px;
+        width: 200px;
+    }
 }

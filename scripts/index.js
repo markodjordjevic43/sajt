@@ -1,0 +1,2 @@
+document.getElementById("akcija-slideshow-next").addEventListener("click", actionSlideshow.nextSlide);
+document.getElementById("akcija-slideshow-prev").addEventListener("click", actionSlideshow.previousSlide);
