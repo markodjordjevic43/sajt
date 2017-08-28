@@ -7,7 +7,7 @@ var actionSlideshow = (function () {
 
     function nextSlide() {
         if (slideIndex === slideCount) {
-            slideIndex = 1
+            slideIndex = 1;
         }
         else {
             slideIndex++;
@@ -17,7 +17,7 @@ var actionSlideshow = (function () {
 
     function previousSlide() {
         if (slideIndex === 1) {
-            slideIndex = slideCount
+            slideIndex = slideCount;
         }
         else {
             slideIndex--;
