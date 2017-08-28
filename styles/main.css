@@ -168,6 +168,11 @@ nav ul li {
     height: auto;
 }
 
+.akcija-proizvod a {
+    color: black;
+    text-decoration: none;
+}
+
 .akcija-thumbnail {
     width: 100%;
     height: auto;
