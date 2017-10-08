@@ -334,6 +334,20 @@ nav ul li {
     margin-bottom: 1vh;
 }
 
+.contact__email {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.contact__tekuci-racuni {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.contact__tekuci-racuni > div {
+    margin-bottom: 1vh;
+}
+
 #map {
     height: 500px;
     width: 500px;
