@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>
-	<title>Ponuda</title> 
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+	<title>Ponuda</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/font-awesome/css/font-awesome.css">
 </head>
 
 <body>
@@ -26,8 +28,14 @@
 		</header>
 		<main>
 			<section>
+				<div class="filteri">
+					<div class="filteri-search">
+						<i class="fa fa-search search-icon" aria-hidden="true"></i>
+						<input type="search" id="search-input" />
+					</div>
+				</div>
 				<div class="ponuda">
-					<ul class="ponuda-lista">
+					<ul class="ponuda-lista" id="ponuda-lista-proizvoda">
 						<!--ODAVDE
 						<li>
 							<div class="ponuda-row">
@@ -163,7 +171,7 @@
 							</div>
 						</li>
 						<li>
-							<div class="ponuda-row" data-type="multifunkcijski" data-name="KYOCERA ECOSYS M2640IDW Laser"> 
+							<div class="ponuda-row" data-type="multifunkcijski" data-name="KYOCERA ECOSYS M2640IDW Laser">
 								<a href="ponuda/kyocera-ecosys-m2640idw.html"><img class="ponuda-thumbnail" src="images/ponuda/2640idw.jpg" /></a>
 								<a href="ponuda/kyocera-ecosys-m2640idw.html">KYOCERA ECOSYS M2640IDW Laser</span></a>
 							</div>
@@ -234,11 +242,12 @@
 								<a href="ponuda/kyocera-taskalfa-5052ci.html">KYOCERA TASKalfa 5052ci Color laser</span></a>
 							</div>
 						</li>
-
 					</ul>
 				</div>
 			</section>
 		</main>
 	</div>
+	<script src="scripts/ponuda-filter.js"></script>
 </body>
+
 </html>

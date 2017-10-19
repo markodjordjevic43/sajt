@@ -222,10 +222,23 @@ nav ul li {
 }
 
 .ponuda {
-    margin: 40px 25px;
+    margin: 0 25px 40px 25px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
+}
+
+.filteri {
+    margin: 10px 25px;
+}
+
+.filteri .search-icon {
+    color: #eee;
+    font-size: 18px;
+}
+
+#search-input {
+    font-size: 18px;
 }
 
 .ponuda-lista {

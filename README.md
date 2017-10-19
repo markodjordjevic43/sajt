@@ -1,17 +1,19 @@
-#	To do
+#To do
 
 * search
 
-*  odraditi google pretragu 
+* odraditi google pretragu 
 
-*  ubaciti filtere 
+* ubaciti filtere 
 
 * ubaciti karticu servis
   
-*  prodaju tonera i potrosnog materijala i dodatne opreme
+* prodaju tonera i potrosnog materijala i dodatne opreme
 
-*  kompresovati slike
+* kompresovati slike
 
-*  postaviti na hosting moj
+* postaviti na hosting moj
 
-*  ubaciti footer
+* ubaciti footer
+
+* dodati sertifikate
