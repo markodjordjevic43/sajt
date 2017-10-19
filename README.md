@@ -1,6 +1,6 @@
 #To do
 
-* search
+* ~~search~~
 
 * odraditi google pretragu 
 
@@ -10,9 +10,9 @@
   
 * prodaju tonera i potrosnog materijala i dodatne opreme
 
-* kompresovati slike
+* ~~kompresovati slike~~
 
-* postaviti na hosting moj
+* ~~postaviti na hosting moj~~
 
 * ubaciti footer
 
