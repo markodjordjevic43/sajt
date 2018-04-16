@@ -1,17 +1,12 @@
 #	To do
 
-* search
 
-*  odraditi google pretragu 
+*  google analytics
 
-*  ubaciti filtere 
+*  ponuda kategorije
 
-* ubaciti karticu servis
+*  servis stranica
   
 *  prodaju tonera i potrosnog materijala i dodatne opreme
-
-*  kompresovati slike
-
-*  postaviti na hosting moj
 
 *  ubaciti footer

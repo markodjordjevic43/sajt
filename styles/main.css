@@ -221,6 +221,25 @@ nav ul li {
     width: 100%;
 }
 
+.ponuda-kategorije-sekcija {
+    padding-top: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.ponuda-kategorije-sekcija h2 {
+    color: red;
+}
+
+.ponuda-categories-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ponuda-categories-link-wrapper {
+    width: 33%;
+}
+
 .ponuda {
     margin: 40px 25px;
     padding: 20px;
