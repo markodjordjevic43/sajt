@@ -1,12 +1,15 @@
-#	To do
+# To do
 
+* Google Analytics (M DJ)
 
-*  google analytics
+* Slike za kategorija proizvoda i usluga (M DJ)
 
-*  ponuda kategorije
+* Servis stranica tekst (M DJ)
 
-*  servis stranica
-  
-*  prodaju tonera i potrosnog materijala i dodatne opreme
+* dodati sertifikate (pre toga kompresovati slike M DJ)
 
-*  ubaciti footer
+* ubaciti footer
+
+* izmeniti header
+
+* slike da se uvelicaju kad kliknes
