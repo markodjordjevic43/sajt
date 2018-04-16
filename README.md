@@ -1,19 +1,15 @@
 #To do
 
-* ~~search~~
+* Google Analytics (M DJ)
 
-* odraditi google pretragu 
+* Slike za kategorija proizvoda i usluga (M DJ)
 
-* ubaciti filtere 
+* Servis stranica tekst (M DJ)
 
-* ubaciti karticu servis
-  
-* prodaju tonera i potrosnog materijala i dodatne opreme
-
-* ~~kompresovati slike~~
-
-* ~~postaviti na hosting moj~~
+* dodati sertifikate (pre toga kompresovati slike M DJ)
 
 * ubaciti footer
 
-* dodati sertifikate
+* izmeniti header
+
+* slike da se uvelicaju kad kliknes
