@@ -8,8 +8,6 @@ productTitleEl.textContent = prod.naziv;
 productImageEl.src = "../../" + prod.slika;
 
 addSection("Štampa", "stampa", prod, productTableEl);
-addSection("Skeniranje", "skeniranje", prod, productTableEl);
-addSection("Kopiranje", "kopiranje", prod, productTableEl);
 addSection("Povezivost", "povezivost", prod, productTableEl);
 addSection("Potrošni", "potrosniMaterijal", prod, productTableEl);
 addSection("Ostalo", "ostalo", prod, productTableEl);

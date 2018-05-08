@@ -10,7 +10,7 @@ var createProductItem = function(productName, productImage, productUrlSlug) {
     imageEl.src = productImage;
     imageLink.appendChild(imageEl);
     var nameLink = document.createElement("a");
-    nameLink.href = "ponuda/multifunkcijski/p.html#" + productUrlSlug;
+    nameLink.href = "ponuda/" + routePart + "/p.html#" + productUrlSlug;
     var productNameEl = document.createTextNode(productName);
     nameLink.appendChild(productNameEl);
     containerEl.appendChild(imageLink);
