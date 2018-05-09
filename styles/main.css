@@ -160,6 +160,7 @@ nav ul li {
     cursor: pointer;
     color: #ccc;
     font-size: calc(16px + 1vh + 1vw);
+    user-select: none;
 }
 
 .akcija-proizvod {
@@ -171,6 +172,9 @@ nav ul li {
 .akcija-proizvod a {
     color: black;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 1vw;
+    font-weight: bold;
 }
 
 .akcija-thumbnail {
