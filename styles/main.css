@@ -58,6 +58,12 @@ header {
     margin-left: 1vw;
 }
 
+.header-telefoni {
+    position: absolute;
+    right: 15vw;
+    top: 1vh;
+}
+
 nav {
     overflow: hidden;
     float: right;
@@ -349,8 +355,15 @@ nav ul li {
     cursor: pointer;
 }
 
-.filteri {
+.ponuda-stampaci-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 10px 25px;
+}
+
+.ponuda-stampaci-telefoni {
+    font-size: calc(10px + 0.5vw);
 }
 
 .filteri .search-icon {
@@ -444,6 +457,103 @@ nav ul li {
     padding: 0;
 }
 
+.large-text {
+    font-size: 1.2em;
+}
+
+.servis-naslov {
+    text-align: center;
+}
+
+.servis-podrzani-proizvodjaci {
+    list-style: none;
+}
+
+.servis-podrzani-proizvodjaci li:before {
+    content: '✓ ';
+}
+
+.servis-telefoni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servis-mail {
+    text-align: center;
+    padding: calc(1vh + 2vw);
+}
+
+.servis-mail a {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.servis-adresa {
+    text-align: center;
+}
+
+.servis-slike {
+    margin-top: calc(1vh + 1vw);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servis-slika-wrapper {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 2vw;
+    overflow: hidden;
+}
+
+.servis-slika {
+    width: 100%;
+    cursor: pointer;
+}
+
+#servis-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 4vh; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+#servis-modal-image {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 65vh;
+}
+
+#servis-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#servis-modal-close:hover,
+#servis-modal-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .contact__info-conainer {
     margin: calc(5px + 1vh + 1vw);
     font-size: calc(1em + 0.3vw);
@@ -506,6 +616,11 @@ nav ul li {
 @media screen and (max-width: 800px) {
     .content {
         width: 100%;
+    }
+
+    .header-telefoni {
+        right: 2vw;
+        font-size: 0.5em;
     }
 
     .welcome-section {
